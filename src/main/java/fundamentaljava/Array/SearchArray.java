@@ -26,6 +26,7 @@ public class SearchArray {
 //                System.out.println(favor+"actor is not founded");
 //            }
         }
-       System.out.println("actor is not founded");
+        System.out.println("actor is not founded");
     }
 }
+

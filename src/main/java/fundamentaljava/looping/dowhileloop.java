@@ -1,4 +1,4 @@
-package looping;
+package fundamentaljava.looping;
 
 public class dowhileloop {
     public static void main(String[] args) {

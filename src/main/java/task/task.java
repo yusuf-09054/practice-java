@@ -1,4 +1,4 @@
-package fundamentaljava;
+package task;
 
 public class task {
     int rollnumber = 05;

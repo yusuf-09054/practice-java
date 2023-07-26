@@ -1,4 +1,4 @@
-package fundamentaljava;
+package task;
 
 public class local_task {
     public void yusuf(){
