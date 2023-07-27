@@ -10,6 +10,7 @@ public class PassingArray {
         System.out.println(Arrays.toString(salary1));
     }
     public void PassingArray2(String name1)
+
     {
         System.out.println("Hello");
     }
@@ -19,7 +20,7 @@ public class PassingArray {
         double[] salary={12,111,123,1234,124,12.24};
         PassingArray ps=new PassingArray();
         ps.PassingArray(salary);
- //       ps.PassingArray2("Mala");
+     //   ps.PassingArray2("Mala");
         System.out.println(name);
 
     }
