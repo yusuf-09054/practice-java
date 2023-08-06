@@ -7,43 +7,53 @@ public class Details {
     public String dept;
     public long phnno;
 
-    public int getRollno() {
+    public int getRollno()
+    {
         return Rollno;
     }
 
-    public void setRollno(int rollno) {
+    public void setRollno(int rollno)
+    {
         Rollno = rollno;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
 
-    public String getCollegename() {
+    public String getCollegename()
+    {
         return collegename;
     }
 
-    public void setCollegename(String collegename) {
+    public void setCollegename(String collegename)
+    {
         this.collegename = collegename;
     }
 
-    public String getDept() {
+    public String getDept()
+    {
         return dept;
     }
 
-    public void setDept(String dept) {
+    public void setDept(String dept)
+    {
         this.dept = dept;
     }
 
-    public long getPhnno() {
+    public long getPhnno()
+    {
         return phnno;
     }
 
-    public void setPhnno(long phnno) {
+    public void setPhnno(long phnno)
+    {
         this.phnno = phnno;
     }
 }

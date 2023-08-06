@@ -13,7 +13,5 @@ public class read {
         fi.read(getting);
         String aa=new String(getting);
         System.out.println(aa);
-
-
     }
 }

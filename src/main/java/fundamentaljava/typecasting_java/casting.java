@@ -31,5 +31,6 @@ public class casting {
 
         int data1=(int) num1;
         System.out.println("the data value is:"+data1);
+
     }
 }
