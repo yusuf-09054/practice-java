@@ -12,5 +12,4 @@ public class Hellothread  extends Thread{
         h.start();
         h.run();
     }
-
 }

@@ -1,6 +1,6 @@
 package fundamentaljava.Thread;
 
-    class car2 extends Thread
+     class car2 extends Thread
     {
         public void run()
         {
@@ -14,7 +14,6 @@ package fundamentaljava.Thread;
                     e.printStackTrace();
                 }
             }
-
         }
     }
     class bike2 extends Thread

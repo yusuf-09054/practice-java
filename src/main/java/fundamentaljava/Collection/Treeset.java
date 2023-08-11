@@ -3,9 +3,9 @@ package fundamentaljava.Collection;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class Treeset {
-    public static void main(String[] args) {
-
+public class Treeset{
+    public static void main(String[] args)
+    {
         TreeSet<Bikes> Showroom=new TreeSet<Bikes>();
         Showroom.add(new Bikes("Pulsar",4, 78000.00));
         Showroom.add(new Bikes("Duke", 2, 111000.00));
@@ -36,25 +36,24 @@ class Bikes implements Comparable<Bikes> {
     //    bikename=bikename;
     //     no=no;
     //     price=price;
-//}
+    // }
     @Override
-    public String toString() {
+    public String toString()
+    {
     return "Bikes[Bikenames="+bikename+",no ="+no+",price ="+price+"]";
 }
 
 
-public Bikes (String bikename,Integer no,Double price) {
+public Bikes (String bikename,Integer no,Double price)
+{
     super();
     this.bikename = bikename;
     this.no = no;
     this.price = price;
 }
     @Override
-    public int compareTo(Bikes o) {
+    public int compareTo(Bikes o)
+    {
         return o.price.compareTo(this.price);
     }
 }
-
-
-
-
